@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Who asks Satan";
+  src: url("fonts/who asks satan.ttf");
+}
+body {
+  margin: 0px;
+  font-family: "Who asks Satan", sans-serif;
+}
+
+.header {
+  background-color: #050404;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  background-color: #e9e9e9;
+  width: 250px;
+  margin-left: 10px;
+}
+.header__nav {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: row;
+}
+.header__nav--links {
+  color: #B92224;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.3em;
+}
+.header__nav--links:hover {
+  color: #e9e9e9;
+}
+
+/*# sourceMappingURL=style.css.map */
